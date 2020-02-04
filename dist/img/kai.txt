@@ -1,0 +1,29 @@
+def show_space_star(i,j,ch='\n'):
+    print(" "*i,"* "*j,end=ch)
+
+    
+n = int(input("enter n: "))
+print("##################")
+print("# Drawing size",n, "#")
+print("##################")
+print("1. Triangle")
+for i in range(n+1) :
+    show_space_star(((n)-i)*2,(i*2)-1)
+print("2. Down triangle")
+for i in range(n+1) :
+    show_space_star((i*2),(((n)-i)*2)-1)
+print("3. Rhombus")
+for i in range(n+1) :
+    show_space_star(((n)-i)*2,(i*2)-1)
+for i in range(n+1) :
+    show_space_star(((i+1)*2),(((n-1)-i)*2)-1)
+print("4. Left triangle")
+for i in range(n+1) :
+    show_space_star(((n)-i)*2,i)
+for i in range(n+1) :
+    show_space_star(((i+1)*2),((n-1)-i))
+print("5. Rigt triangle")
+for i in range(n+1) :
+    show_space_star(0,i)
+for i in range(n+1) :
+    show_space_star(0,(n-1)-i)
