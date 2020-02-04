@@ -1,0 +1,28 @@
+
+.result {
+    background-color: red;
+    color: aqua;
+}
+body{
+  text-align: center;
+  background-image:url("/dist/img/123.jpg");
+} 
+
+h1 {
+  font-size: 5rem;
+  color: rgb(255, 151, 232);
+  font-family: "Fruktur", cursive;
+  text-shadow: 3px 0 rgb(0, 0, 0)
+}
+h2{
+  font-size: 4rem;
+  color: rgb(255, 151, 232);
+  font-family: "Fruktur", cursive;
+  text-shadow: 3px 0 rgb(0, 0, 0)
+}
+h3{
+  font-size: 3.5rem;
+  color: rgb(255, 151, 232);
+  font-family: "Fruktur", cursive;
+  text-shadow: 3px 0 rgb(0, 0, 0)
+}
